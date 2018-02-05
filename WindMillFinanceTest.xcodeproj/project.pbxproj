@@ -7,21 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920CF95A2027CBDF00656BFA /* AssemblerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920CF9592027CBDE00656BFA /* AssemblerFactory.swift */; };
+		920CF95C2027CC1400656BFA /* RepositoriesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920CF95B2027CC1400656BFA /* RepositoriesAssembly.swift */; };
+		9272CD4D20260EC500BB20BE /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9272CD4C20260EC500BB20BE /* ApplicationCoordinator.swift */; };
+		9272CD4F20260ED000BB20BE /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9272CD4E20260ED000BB20BE /* Coordinator.swift */; };
+		9272CD51202777E800BB20BE /* DashboardCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9272CD50202777E800BB20BE /* DashboardCoordinator.swift */; };
+		9272CD53202778A300BB20BE /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9272CD52202778A300BB20BE /* DashboardModel.swift */; };
 		92A05BBA2025FF5E00C277F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A05BB92025FF5E00C277F4 /* AppDelegate.swift */; };
-		92A05BBC2025FF5E00C277F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A05BBB2025FF5E00C277F4 /* ViewController.swift */; };
-		92A05BBF2025FF5E00C277F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A05BBD2025FF5E00C277F4 /* Main.storyboard */; };
-		92A05BC12025FF5E00C277F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A05BC02025FF5E00C277F4 /* Assets.xcassets */; };
-		92A05BC42025FF5E00C277F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A05BC22025FF5E00C277F4 /* LaunchScreen.storyboard */; };
+		92A05BD62025FFA100C277F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A05BCF2025FFA100C277F4 /* Assets.xcassets */; };
+		92A05BD72025FFA100C277F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A05BD02025FFA100C277F4 /* LaunchScreen.storyboard */; };
+		92A05BDC2026081500C277F4 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A05BDB2026081500C277F4 /* DashboardController.swift */; };
+		92A05BDE2026086700C277F4 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A05BDD2026086700C277F4 /* Dashboard.storyboard */; };
+		92A506DA2028A69A00B642CC /* JSONParseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A506D92028A69A00B642CC /* JSONParseService.swift */; };
+		92A506DC2028A92A00B642CC /* DashboardSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A506DB2028A92A00B642CC /* DashboardSignal.swift */; };
+		92BDFB5520277CF7000E449A /* colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 92BDFB5420277CF7000E449A /* colors.json */; };
+		92BDFB5820277D42000E449A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92BDFB5A20277D42000E449A /* Localizable.strings */; };
+		92BDFB5F20277E10000E449A /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BDFB5B20277E10000E449A /* Texts.swift */; };
+		92BDFB6020277E10000E449A /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BDFB5C20277E10000E449A /* Storyboards.swift */; };
+		92BDFB6120277E10000E449A /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BDFB5D20277E10000E449A /* Assets.swift */; };
+		92BDFB6220277E10000E449A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BDFB5E20277E10000E449A /* Colors.swift */; };
+		92BDFB6A20279B22000E449A /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BDFB6920279B22000E449A /* Fonts.swift */; };
+		92BDFB6F2027A880000E449A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BDFB6E2027A880000E449A /* User.swift */; };
+		92BDFB712027A8C4000E449A /* ngpo.json in Resources */ = {isa = PBXBuildFile; fileRef = 92BDFB702027A8C4000E449A /* ngpo.json */; };
+		92BDFB732027A959000E449A /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BDFB722027A959000E449A /* Asset.swift */; };
+		92BDFB752027AC95000E449A /* Valuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BDFB742027AC95000E449A /* Valuation.swift */; };
+		92BDFB772027B9BC000E449A /* DashboardAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BDFB762027B9BC000E449A /* DashboardAssembly.swift */; };
+		92BDFB7B2027C182000E449A /* UserJSONRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BDFB7A2027C182000E449A /* UserJSONRepository.swift */; };
+		92BDFB7D2027C1FC000E449A /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BDFB7C2027C1FC000E449A /* FileService.swift */; };
+		92BDFB7F2027C50C000E449A /* InfrastructureServicesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BDFB7E2027C50C000E449A /* InfrastructureServicesAssembly.swift */; };
+		92BDFB822027C598000E449A /* DomainServicesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BDFB812027C598000E449A /* DomainServicesAssembly.swift */; };
+		C7E41D97CC3C7DCDD228F603 /* Pods_WindMillFinanceTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F01C296CBF79FFF94A9128 /* Pods_WindMillFinanceTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48F01C296CBF79FFF94A9128 /* Pods_WindMillFinanceTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WindMillFinanceTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		920CF9592027CBDE00656BFA /* AssemblerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssemblerFactory.swift; sourceTree = "<group>"; };
+		920CF95B2027CC1400656BFA /* RepositoriesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesAssembly.swift; sourceTree = "<group>"; };
+		9272CD4C20260EC500BB20BE /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+		9272CD4E20260ED000BB20BE /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		9272CD50202777E800BB20BE /* DashboardCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCoordinator.swift; sourceTree = "<group>"; };
+		9272CD52202778A300BB20BE /* DashboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardModel.swift; sourceTree = "<group>"; };
 		92A05BB62025FF5E00C277F4 /* WindMillFinanceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindMillFinanceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A05BB92025FF5E00C277F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		92A05BBB2025FF5E00C277F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		92A05BBE2025FF5E00C277F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		92A05BC02025FF5E00C277F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		92A05BC32025FF5E00C277F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		92A05BC52025FF5E00C277F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A05BCF2025FFA100C277F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92A05BD12025FFA100C277F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92A05BD42025FFA100C277F4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A05BDB2026081500C277F4 /* DashboardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		92A05BDD2026086700C277F4 /* Dashboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		92A506D92028A69A00B642CC /* JSONParseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParseService.swift; sourceTree = "<group>"; };
+		92A506DB2028A92A00B642CC /* DashboardSignal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardSignal.swift; sourceTree = "<group>"; };
+		92BDFB5420277CF7000E449A /* colors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = colors.json; sourceTree = "<group>"; };
+		92BDFB5920277D42000E449A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		92BDFB5B20277E10000E449A /* Texts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
+		92BDFB5C20277E10000E449A /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		92BDFB5D20277E10000E449A /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		92BDFB5E20277E10000E449A /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		92BDFB6420278F6A000E449A /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		92BDFB6520278F6B000E449A /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		92BDFB6620278F8C000E449A /* SEGOEUI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = SEGOEUI.TTF; sourceTree = "<group>"; };
+		92BDFB6720278FE0000E449A /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
+		92BDFB6820278FE1000E449A /* SourceSansPro-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Semibold.otf"; sourceTree = "<group>"; };
+		92BDFB6920279B22000E449A /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		92BDFB6E2027A880000E449A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		92BDFB702027A8C4000E449A /* ngpo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ngpo.json; sourceTree = "<group>"; };
+		92BDFB722027A959000E449A /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		92BDFB742027AC95000E449A /* Valuation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Valuation.swift; sourceTree = "<group>"; };
+		92BDFB762027B9BC000E449A /* DashboardAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardAssembly.swift; sourceTree = "<group>"; };
+		92BDFB7A2027C182000E449A /* UserJSONRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserJSONRepository.swift; sourceTree = "<group>"; };
+		92BDFB7C2027C1FC000E449A /* FileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileService.swift; sourceTree = "<group>"; };
+		92BDFB7E2027C50C000E449A /* InfrastructureServicesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfrastructureServicesAssembly.swift; sourceTree = "<group>"; };
+		92BDFB812027C598000E449A /* DomainServicesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DomainServicesAssembly.swift; sourceTree = "<group>"; };
+		9D6B72E7D39F8C454F6CBBB2 /* Pods-WindMillFinanceTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindMillFinanceTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-WindMillFinanceTest/Pods-WindMillFinanceTest.release.xcconfig"; sourceTree = "<group>"; };
+		B15729F248F52EBC1CA17C70 /* Pods-WindMillFinanceTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindMillFinanceTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WindMillFinanceTest/Pods-WindMillFinanceTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +86,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7E41D97CC3C7DCDD228F603 /* Pods_WindMillFinanceTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9272CD4B20260EB600BB20BE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9272CD5520277B6500BB20BE /* Constants */,
+				9272CD4E20260ED000BB20BE /* Coordinator.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9272CD5520277B6500BB20BE /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				92BDFB6920279B22000E449A /* Fonts.swift */,
+				92BDFB5D20277E10000E449A /* Assets.swift */,
+				92BDFB5E20277E10000E449A /* Colors.swift */,
+				92BDFB5C20277E10000E449A /* Storyboards.swift */,
+				92BDFB5B20277E10000E449A /* Texts.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		92A05BAD2025FF5E00C277F4 = {
 			isa = PBXGroup;
 			children = (
 				92A05BB82025FF5E00C277F4 /* WindMillFinanceTest */,
 				92A05BB72025FF5E00C277F4 /* Products */,
+				DC57B37B66018212E2BC7CE9 /* Pods */,
+				C2202B7D155B8EE080525C36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +135,135 @@
 		92A05BB82025FF5E00C277F4 /* WindMillFinanceTest */ = {
 			isa = PBXGroup;
 			children = (
+				92A5065920289B8B00B642CC /* External */,
+				9272CD4B20260EB600BB20BE /* Common */,
+				92A05BCD2025FFA100C277F4 /* Core */,
+				92A05BCB2025FFA100C277F4 /* Flows */,
+				92A05BCE2025FFA100C277F4 /* Resources */,
 				92A05BB92025FF5E00C277F4 /* AppDelegate.swift */,
-				92A05BBB2025FF5E00C277F4 /* ViewController.swift */,
-				92A05BBD2025FF5E00C277F4 /* Main.storyboard */,
-				92A05BC02025FF5E00C277F4 /* Assets.xcassets */,
-				92A05BC22025FF5E00C277F4 /* LaunchScreen.storyboard */,
-				92A05BC52025FF5E00C277F4 /* Info.plist */,
 			);
 			path = WindMillFinanceTest;
+			sourceTree = "<group>";
+		};
+		92A05BCB2025FFA100C277F4 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				92A05BDA2026081500C277F4 /* Dashboard */,
+				9272CD4C20260EC500BB20BE /* ApplicationCoordinator.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		92A05BCD2025FFA100C277F4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				920CF9592027CBDE00656BFA /* AssemblerFactory.swift */,
+				92BDFB802027C587000E449A /* DomainServices */,
+				92BDFB6B2027A873000E449A /* Entities */,
+				92BDFB6C2027A873000E449A /* Repositories */,
+				92BDFB6D2027A873000E449A /* InfrastructureServices */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		92A05BCE2025FFA100C277F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92BDFB702027A8C4000E449A /* ngpo.json */,
+				92BDFB6320278F48000E449A /* Fonts */,
+				92A05BCF2025FFA100C277F4 /* Assets.xcassets */,
+				92A05BD02025FFA100C277F4 /* LaunchScreen.storyboard */,
+				92A05BD42025FFA100C277F4 /* Info.plist */,
+				92BDFB5A20277D42000E449A /* Localizable.strings */,
+				92BDFB5420277CF7000E449A /* colors.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		92A05BDA2026081500C277F4 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				92A05BDD2026086700C277F4 /* Dashboard.storyboard */,
+				92A05BDB2026081500C277F4 /* DashboardController.swift */,
+				9272CD52202778A300BB20BE /* DashboardModel.swift */,
+				92A506DB2028A92A00B642CC /* DashboardSignal.swift */,
+				9272CD50202777E800BB20BE /* DashboardCoordinator.swift */,
+				92BDFB762027B9BC000E449A /* DashboardAssembly.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		92A5065920289B8B00B642CC /* External */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		92BDFB6320278F48000E449A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				92BDFB6420278F6A000E449A /* Lato-Light.ttf */,
+				92BDFB6520278F6B000E449A /* Lato-Regular.ttf */,
+				92BDFB6620278F8C000E449A /* SEGOEUI.TTF */,
+				92BDFB6720278FE0000E449A /* SourceSansPro-Regular.otf */,
+				92BDFB6820278FE1000E449A /* SourceSansPro-Semibold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		92BDFB6B2027A873000E449A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				92BDFB6E2027A880000E449A /* User.swift */,
+				92BDFB722027A959000E449A /* Asset.swift */,
+				92BDFB742027AC95000E449A /* Valuation.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		92BDFB6C2027A873000E449A /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				92BDFB7A2027C182000E449A /* UserJSONRepository.swift */,
+				920CF95B2027CC1400656BFA /* RepositoriesAssembly.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		92BDFB6D2027A873000E449A /* InfrastructureServices */ = {
+			isa = PBXGroup;
+			children = (
+				92BDFB7C2027C1FC000E449A /* FileService.swift */,
+				92A506D92028A69A00B642CC /* JSONParseService.swift */,
+				92BDFB7E2027C50C000E449A /* InfrastructureServicesAssembly.swift */,
+			);
+			path = InfrastructureServices;
+			sourceTree = "<group>";
+		};
+		92BDFB802027C587000E449A /* DomainServices */ = {
+			isa = PBXGroup;
+			children = (
+				92BDFB812027C598000E449A /* DomainServicesAssembly.swift */,
+			);
+			path = DomainServices;
+			sourceTree = "<group>";
+		};
+		C2202B7D155B8EE080525C36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48F01C296CBF79FFF94A9128 /* Pods_WindMillFinanceTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC57B37B66018212E2BC7CE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B15729F248F52EBC1CA17C70 /* Pods-WindMillFinanceTest.debug.xcconfig */,
+				9D6B72E7D39F8C454F6CBBB2 /* Pods-WindMillFinanceTest.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +273,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92A05BC82025FF5E00C277F4 /* Build configuration list for PBXNativeTarget "WindMillFinanceTest" */;
 			buildPhases = (
+				865F5F0C2EEDD0BF632B504A /* [CP] Check Pods Manifest.lock */,
+				9272CD5420277B0300BB20BE /* SwiftGen */,
 				92A05BB22025FF5E00C277F4 /* Sources */,
 				92A05BB32025FF5E00C277F4 /* Frameworks */,
 				92A05BB42025FF5E00C277F4 /* Resources */,
+				5835659729666DA48D090C5A /* [CP] Embed Pods Frameworks */,
+				C4C54C07EA63AB8D538ABCB5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +302,7 @@
 				TargetAttributes = {
 					92A05BB52025FF5E00C277F4 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,41 +330,145 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92A05BC42025FF5E00C277F4 /* LaunchScreen.storyboard in Resources */,
-				92A05BC12025FF5E00C277F4 /* Assets.xcassets in Resources */,
-				92A05BBF2025FF5E00C277F4 /* Main.storyboard in Resources */,
+				92A05BD62025FFA100C277F4 /* Assets.xcassets in Resources */,
+				92BDFB5820277D42000E449A /* Localizable.strings in Resources */,
+				92BDFB5520277CF7000E449A /* colors.json in Resources */,
+				92BDFB712027A8C4000E449A /* ngpo.json in Resources */,
+				92A05BD72025FFA100C277F4 /* LaunchScreen.storyboard in Resources */,
+				92A05BDE2026086700C277F4 /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5835659729666DA48D090C5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WindMillFinanceTest/Pods-WindMillFinanceTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/EventsTree/EventsTree.framework",
+				"${BUILT_PRODUCTS_DIR}/ModelMapper/Mapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+				"${BUILT_PRODUCTS_DIR}/SwinjectAutoregistration/SwinjectAutoregistration.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EventsTree.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectAutoregistration.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WindMillFinanceTest/Pods-WindMillFinanceTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		865F5F0C2EEDD0BF632B504A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WindMillFinanceTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9272CD5420277B0300BB20BE /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SWIFTGEN=$PODS_ROOT/SwiftGen/bin/swiftgen\n\nif which $SWIFTGEN >/dev/null; then\n$SWIFTGEN storyboards -t swift4 \"$PROJECT_DIR/WindMillFinanceTest/Flows\" --output \"$PROJECT_DIR/WindMillFinanceTest/Common/Constants/Storyboards.swift\"\n$SWIFTGEN xcassets -t swift4 \"$PROJECT_DIR/WindMillFinanceTest/Resources/Assets.xcassets\" --output \"$PROJECT_DIR/WindMillFinanceTest/Common/Constants/Assets.swift\"\n$SWIFTGEN strings -t structured-swift4 \"$PROJECT_DIR/WindMillFinanceTest/Resources/en.lproj/Localizable.strings\" --output \"$PROJECT_DIR/WindMillFinanceTest/Common/Constants/Texts.swift\"\n$SWIFTGEN colors -t swift4 \"$PROJECT_DIR/WindMillFinanceTest/Resources/colors.json\" --output \"$PROJECT_DIR/WindMillFinanceTest/Common/Constants/Colors.swift\"\n$SWIFTGEN fonts -t swift4 \"$PROJECT_DIR/WindMillFinanceTest/Resources/Fonts\" --output \"$PROJECT_DIR/WindMillFinanceTest/Common/Constants/Fonts.swift\"\nelse\necho \"warning: SwiftGen not installed, download it from https://github.com/AliSoftware/SwiftGen\"\nfi";
+		};
+		C4C54C07EA63AB8D538ABCB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WindMillFinanceTest/Pods-WindMillFinanceTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		92A05BB22025FF5E00C277F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92A05BBC2025FF5E00C277F4 /* ViewController.swift in Sources */,
+				92A506DC2028A92A00B642CC /* DashboardSignal.swift in Sources */,
+				92BDFB6020277E10000E449A /* Storyboards.swift in Sources */,
+				92BDFB7B2027C182000E449A /* UserJSONRepository.swift in Sources */,
+				92BDFB732027A959000E449A /* Asset.swift in Sources */,
+				92BDFB772027B9BC000E449A /* DashboardAssembly.swift in Sources */,
+				92BDFB6220277E10000E449A /* Colors.swift in Sources */,
+				9272CD4F20260ED000BB20BE /* Coordinator.swift in Sources */,
+				92BDFB5F20277E10000E449A /* Texts.swift in Sources */,
+				92BDFB752027AC95000E449A /* Valuation.swift in Sources */,
+				9272CD51202777E800BB20BE /* DashboardCoordinator.swift in Sources */,
+				92A05BDC2026081500C277F4 /* DashboardController.swift in Sources */,
 				92A05BBA2025FF5E00C277F4 /* AppDelegate.swift in Sources */,
+				92A506DA2028A69A00B642CC /* JSONParseService.swift in Sources */,
+				920CF95A2027CBDF00656BFA /* AssemblerFactory.swift in Sources */,
+				92BDFB7F2027C50C000E449A /* InfrastructureServicesAssembly.swift in Sources */,
+				9272CD53202778A300BB20BE /* DashboardModel.swift in Sources */,
+				92BDFB6F2027A880000E449A /* User.swift in Sources */,
+				92BDFB6A20279B22000E449A /* Fonts.swift in Sources */,
+				9272CD4D20260EC500BB20BE /* ApplicationCoordinator.swift in Sources */,
+				92BDFB6120277E10000E449A /* Assets.swift in Sources */,
+				92BDFB7D2027C1FC000E449A /* FileService.swift in Sources */,
+				920CF95C2027CC1400656BFA /* RepositoriesAssembly.swift in Sources */,
+				92BDFB822027C598000E449A /* DomainServicesAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		92A05BBD2025FF5E00C277F4 /* Main.storyboard */ = {
+		92A05BD02025FFA100C277F4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				92A05BBE2025FF5E00C277F4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		92A05BC22025FF5E00C277F4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				92A05BC32025FF5E00C277F4 /* Base */,
+				92A05BD12025FFA100C277F4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		92BDFB5A20277D42000E449A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92BDFB5920277D42000E449A /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -211,7 +522,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +573,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -272,14 +583,18 @@
 		};
 		92A05BC92025FF5E00C277F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B15729F248F52EBC1CA17C70 /* Pods-WindMillFinanceTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4GS5NBU7N5;
-				INFOPLIST_FILE = WindMillFinanceTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WindMillFinanceTest/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yalantis.WindMillFinanceTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +602,17 @@
 		};
 		92A05BCA2025FF5E00C277F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D6B72E7D39F8C454F6CBBB2 /* Pods-WindMillFinanceTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4GS5NBU7N5;
-				INFOPLIST_FILE = WindMillFinanceTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WindMillFinanceTest/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yalantis.WindMillFinanceTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
