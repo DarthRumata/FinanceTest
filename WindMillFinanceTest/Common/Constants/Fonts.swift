@@ -51,6 +51,7 @@ extension Font {
 // swiftlint:disable identifier_name line_length type_body_length
 enum FontFamily {
   enum Lato {
+    static let bold = FontConvertible(name: "Lato-Bold", family: "Lato", path: "Lato-Bold.ttf")
     static let light = FontConvertible(name: "Lato-Light", family: "Lato", path: "Lato-Light.ttf")
     static let regular = FontConvertible(name: "Lato-Regular", family: "Lato", path: "Lato-Regular.ttf")
   }

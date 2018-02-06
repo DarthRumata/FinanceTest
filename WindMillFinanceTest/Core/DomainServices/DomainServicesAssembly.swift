@@ -13,5 +13,7 @@ import SwinjectAutoregistration
 struct DomainServicesAssembly: Assembly {
 
   func assemble(container: Container) {
+    container.autoregister(ValuationHistoryService.self, initializer: ValuationHistoryService.init)
+    container.autoregister(WealthCalculatioService.self, initializer: WealthCalculatioService.init)
   }
 }

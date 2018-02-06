@@ -13,7 +13,7 @@ import SwinjectAutoregistration
 struct RepositoriesAssembly: Assembly {
 
   func assemble(container: Container) {
-    container.autoregister(UserJSONRepository.self, initializer: UserJSONRepository.init).inObjectScope(.container)
+    container.autoregister(UserJSONRepository.self, initializer: UserJSONRepository.init)
   }
 
 }

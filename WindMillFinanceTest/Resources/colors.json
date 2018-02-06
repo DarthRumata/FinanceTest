@@ -5,5 +5,11 @@
   "darkishPurple": "#6b1766",
   "lipstick": "#c2207e",
   "darkishPink": "#e13593",
-  "greyishBrown": "#4a4a4a"
+  "greyishBrown": "#4a4a4a",
+  "collectionBackground": "#EEEEEE",
+  "greyishBrownTwo": "#414141",
+  "darkishGreen": "#228440",
+  "warmGrey": "#9b9b9b",
+  "purplishGrey": "#79787a",
+  "negativeIncomeColor": "#DF1414"
 }

@@ -27,6 +27,13 @@ enum FinanceAssetType: String {
 
 enum Currency: String {
   case GBP = "GBP"
+
+  var symbol: String {
+    switch self {
+    case .GBP:
+      return "£"
+    }
+  }
 }
 
 enum Category: String {
@@ -54,4 +61,5 @@ struct FinanceAsset: Mappable {
     try history = map.from("historicalValuations")
     try currentValuation = map.from("currentValuation")
   }
+
 }

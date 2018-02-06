@@ -29,9 +29,15 @@ struct ColorName {
   let rgbaValue: UInt32
   var color: Color { return Color(named: self) }
 
+  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#eeeeee"></span>
+  /// Alpha: 100% <br/> (0xeeeeeeff)
+  static let collectionBackground = ColorName(rgbaValue: 0xeeeeeeff)
   /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#be8e43"></span>
   /// Alpha: 100% <br/> (0xbe8e43ff)
   static let darkTan = ColorName(rgbaValue: 0xbe8e43ff)
+  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#228440"></span>
+  /// Alpha: 100% <br/> (0x228440ff)
+  static let darkishGreen = ColorName(rgbaValue: 0x228440ff)
   /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#e13593"></span>
   /// Alpha: 100% <br/> (0xe13593ff)
   static let darkishPink = ColorName(rgbaValue: 0xe13593ff)
@@ -44,12 +50,24 @@ struct ColorName {
   /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#4a4a4a"></span>
   /// Alpha: 100% <br/> (0x4a4a4aff)
   static let greyishBrown = ColorName(rgbaValue: 0x4a4a4aff)
+  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#414141"></span>
+  /// Alpha: 100% <br/> (0x414141ff)
+  static let greyishBrownTwo = ColorName(rgbaValue: 0x414141ff)
   /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#c2207e"></span>
   /// Alpha: 100% <br/> (0xc2207eff)
   static let lipstick = ColorName(rgbaValue: 0xc2207eff)
+  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#df1414"></span>
+  /// Alpha: 100% <br/> (0xdf1414ff)
+  static let negativeIncomeColor = ColorName(rgbaValue: 0xdf1414ff)
+  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#79787a"></span>
+  /// Alpha: 100% <br/> (0x79787aff)
+  static let purplishGrey = ColorName(rgbaValue: 0x79787aff)
   /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#1a7a35"></span>
   /// Alpha: 100% <br/> (0x1a7a35ff)
   static let treeGreen = ColorName(rgbaValue: 0x1a7a35ff)
+  /// <span style="display:block;width:3em;height:2em;border:1px solid black;background:#9b9b9b"></span>
+  /// Alpha: 100% <br/> (0x9b9b9bff)
+  static let warmGrey = ColorName(rgbaValue: 0x9b9b9bff)
 }
 // swiftlint:enable identifier_name line_length type_body_length
 

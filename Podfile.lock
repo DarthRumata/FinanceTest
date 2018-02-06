@@ -1,7 +1,4 @@
 PODS:
-  - Charts (3.0.5):
-    - Charts/Core (= 3.0.5)
-  - Charts/Core (3.0.5)
   - EventsTree (1.0.0)
   - ModelMapper (7.4.0)
   - PromiseKit (4.5.2):
@@ -20,31 +17,32 @@ PODS:
     - Reusable/View (= 4.0.0)
   - Reusable/Storyboard (4.0.0)
   - Reusable/View (4.0.0)
+  - SwiftChart (1.0.1)
   - SwiftGen (5.2.1)
   - Swinject (2.1.1)
   - SwinjectAutoregistration (2.1.1):
     - Swinject (~> 2.1)
 
 DEPENDENCIES:
-  - Charts (~> 3.0)
   - EventsTree (~> 1.0)
   - ModelMapper (~> 7.4)
   - PromiseKit (~> 4.5)
   - Reusable (~> 4.0)
+  - SwiftChart (~> 1.0)
   - SwiftGen (~> 5.2)
   - Swinject (~> 2.1)
   - SwinjectAutoregistration (~> 2.1)
 
 SPEC CHECKSUMS:
-  Charts: 45cdc985b764c838b35ee47eb1365d15735f6d1a
   EventsTree: 137f90ebbfd9f3aa57040f4da972583d6196f0d0
   ModelMapper: 467f49f6f187b4e6cde2599e7cc5968cefa3f19b
   PromiseKit: 743e497a5f505a470d3bbbf4ce0663c1268af0a4
   Reusable: 98e5fff1e0e2e00872199699b276dde08ee56c07
+  SwiftChart: ba767a678d568a5ee22d419e146a0582865e1aff
   SwiftGen: 444b4c467e512a4812b8a800d731643fd265139e
   Swinject: afea49fd95f392b41171669f165842879c48fad6
   SwinjectAutoregistration: d06b56bd8f912b9fb9c59c15181342558a734b1b
 
-PODFILE CHECKSUM: 9d4ad93d45d78c01e96ad955e50d451679aa874e
+PODFILE CHECKSUM: eac015f3e0e6a809f812923577acaca26bf6e7b8
 
 COCOAPODS: 1.4.0

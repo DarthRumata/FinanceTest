@@ -20,6 +20,20 @@
 		92A05BDE2026086700C277F4 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A05BDD2026086700C277F4 /* Dashboard.storyboard */; };
 		92A506DA2028A69A00B642CC /* JSONParseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A506D92028A69A00B642CC /* JSONParseService.swift */; };
 		92A506DC2028A92A00B642CC /* DashboardSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A506DB2028A92A00B642CC /* DashboardSignal.swift */; };
+		92A506DD2028B2E700B642CC /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92BDFB6420278F6A000E449A /* Lato-Light.ttf */; };
+		92A506DE2028B2EB00B642CC /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92BDFB6520278F6B000E449A /* Lato-Regular.ttf */; };
+		92A506DF2028B2EE00B642CC /* SEGOEUI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 92BDFB6620278F8C000E449A /* SEGOEUI.TTF */; };
+		92A506E02028B2F000B642CC /* SourceSansPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92BDFB6720278FE0000E449A /* SourceSansPro-Regular.otf */; };
+		92A506E12028B2F300B642CC /* SourceSansPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 92BDFB6820278FE1000E449A /* SourceSansPro-Semibold.otf */; };
+		92A506E42028B3FE00B642CC /* NetWorthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A506E32028B3FE00B642CC /* NetWorthCell.swift */; };
+		92A506E62028B49400B642CC /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92A506E52028B49400B642CC /* Lato-Bold.ttf */; };
+		92A506E82028B51F00B642CC /* NetWorthCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92A506E72028B51F00B642CC /* NetWorthCell.xib */; };
+		92A506EA2028C83F00B642CC /* MoneyAmountHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A506E92028C83F00B642CC /* MoneyAmountHelper.swift */; };
+		92A506EC2028CE9D00B642CC /* DisplayableInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A506EB2028CE9D00B642CC /* DisplayableInfo.swift */; };
+		92A506EE2028F01F00B642CC /* PerformanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A506ED2028F01F00B642CC /* PerformanceCell.swift */; };
+		92A506F02028F06500B642CC /* PerformanceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92A506EF2028F06500B642CC /* PerformanceCell.xib */; };
+		92A506F42029277C00B642CC /* ValuationHistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A506F32029277C00B642CC /* ValuationHistoryService.swift */; };
+		92A506F620292D7100B642CC /* WealthCalculationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A506F520292D7100B642CC /* WealthCalculationService.swift */; };
 		92BDFB5520277CF7000E449A /* colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 92BDFB5420277CF7000E449A /* colors.json */; };
 		92BDFB5820277D42000E449A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 92BDFB5A20277D42000E449A /* Localizable.strings */; };
 		92BDFB5F20277E10000E449A /* Texts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BDFB5B20277E10000E449A /* Texts.swift */; };
@@ -56,6 +70,15 @@
 		92A05BDD2026086700C277F4 /* Dashboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
 		92A506D92028A69A00B642CC /* JSONParseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParseService.swift; sourceTree = "<group>"; };
 		92A506DB2028A92A00B642CC /* DashboardSignal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardSignal.swift; sourceTree = "<group>"; };
+		92A506E32028B3FE00B642CC /* NetWorthCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorthCell.swift; sourceTree = "<group>"; };
+		92A506E52028B49400B642CC /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		92A506E72028B51F00B642CC /* NetWorthCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetWorthCell.xib; sourceTree = "<group>"; };
+		92A506E92028C83F00B642CC /* MoneyAmountHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyAmountHelper.swift; sourceTree = "<group>"; };
+		92A506EB2028CE9D00B642CC /* DisplayableInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayableInfo.swift; sourceTree = "<group>"; };
+		92A506ED2028F01F00B642CC /* PerformanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceCell.swift; sourceTree = "<group>"; };
+		92A506EF2028F06500B642CC /* PerformanceCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PerformanceCell.xib; sourceTree = "<group>"; };
+		92A506F32029277C00B642CC /* ValuationHistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuationHistoryService.swift; sourceTree = "<group>"; };
+		92A506F520292D7100B642CC /* WealthCalculationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WealthCalculationService.swift; sourceTree = "<group>"; };
 		92BDFB5420277CF7000E449A /* colors.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = colors.json; sourceTree = "<group>"; };
 		92BDFB5920277D42000E449A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		92BDFB5B20277E10000E449A /* Texts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Texts.swift; sourceTree = "<group>"; };
@@ -98,6 +121,7 @@
 			children = (
 				9272CD5520277B6500BB20BE /* Constants */,
 				9272CD4E20260ED000BB20BE /* Coordinator.swift */,
+				92A506E92028C83F00B642CC /* MoneyAmountHelper.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -135,7 +159,6 @@
 		92A05BB82025FF5E00C277F4 /* WindMillFinanceTest */ = {
 			isa = PBXGroup;
 			children = (
-				92A5065920289B8B00B642CC /* External */,
 				9272CD4B20260EB600BB20BE /* Common */,
 				92A05BCD2025FFA100C277F4 /* Core */,
 				92A05BCB2025FFA100C277F4 /* Flows */,
@@ -183,9 +206,11 @@
 		92A05BDA2026081500C277F4 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				92A506E22028B38300B642CC /* Views */,
 				92A05BDD2026086700C277F4 /* Dashboard.storyboard */,
 				92A05BDB2026081500C277F4 /* DashboardController.swift */,
 				9272CD52202778A300BB20BE /* DashboardModel.swift */,
+				92A506EB2028CE9D00B642CC /* DisplayableInfo.swift */,
 				92A506DB2028A92A00B642CC /* DashboardSignal.swift */,
 				9272CD50202777E800BB20BE /* DashboardCoordinator.swift */,
 				92BDFB762027B9BC000E449A /* DashboardAssembly.swift */,
@@ -193,16 +218,21 @@
 			path = Dashboard;
 			sourceTree = "<group>";
 		};
-		92A5065920289B8B00B642CC /* External */ = {
+		92A506E22028B38300B642CC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				92A506E32028B3FE00B642CC /* NetWorthCell.swift */,
+				92A506ED2028F01F00B642CC /* PerformanceCell.swift */,
+				92A506EF2028F06500B642CC /* PerformanceCell.xib */,
+				92A506E72028B51F00B642CC /* NetWorthCell.xib */,
 			);
-			path = External;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		92BDFB6320278F48000E449A /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				92A506E52028B49400B642CC /* Lato-Bold.ttf */,
 				92BDFB6420278F6A000E449A /* Lato-Light.ttf */,
 				92BDFB6520278F6B000E449A /* Lato-Regular.ttf */,
 				92BDFB6620278F8C000E449A /* SEGOEUI.TTF */,
@@ -245,6 +275,8 @@
 			isa = PBXGroup;
 			children = (
 				92BDFB812027C598000E449A /* DomainServicesAssembly.swift */,
+				92A506F520292D7100B642CC /* WealthCalculationService.swift */,
+				92A506F32029277C00B642CC /* ValuationHistoryService.swift */,
 			);
 			path = DomainServices;
 			sourceTree = "<group>";
@@ -330,12 +362,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A506E02028B2F000B642CC /* SourceSansPro-Regular.otf in Resources */,
 				92A05BD62025FFA100C277F4 /* Assets.xcassets in Resources */,
 				92BDFB5820277D42000E449A /* Localizable.strings in Resources */,
 				92BDFB5520277CF7000E449A /* colors.json in Resources */,
+				92A506E82028B51F00B642CC /* NetWorthCell.xib in Resources */,
+				92A506DE2028B2EB00B642CC /* Lato-Regular.ttf in Resources */,
 				92BDFB712027A8C4000E449A /* ngpo.json in Resources */,
+				92A506DF2028B2EE00B642CC /* SEGOEUI.TTF in Resources */,
+				92A506E62028B49400B642CC /* Lato-Bold.ttf in Resources */,
+				92A506E12028B2F300B642CC /* SourceSansPro-Semibold.otf in Resources */,
 				92A05BD72025FFA100C277F4 /* LaunchScreen.storyboard in Resources */,
 				92A05BDE2026086700C277F4 /* Dashboard.storyboard in Resources */,
+				92A506F02028F06500B642CC /* PerformanceCell.xib in Resources */,
+				92A506DD2028B2E700B642CC /* Lato-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,21 +389,21 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WindMillFinanceTest/Pods-WindMillFinanceTest-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/EventsTree/EventsTree.framework",
 				"${BUILT_PRODUCTS_DIR}/ModelMapper/Mapper.framework",
 				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
 				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
 				"${BUILT_PRODUCTS_DIR}/SwinjectAutoregistration/SwinjectAutoregistration.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EventsTree.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectAutoregistration.framework",
 			);
@@ -426,6 +466,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92A506EE2028F01F00B642CC /* PerformanceCell.swift in Sources */,
+				92A506EC2028CE9D00B642CC /* DisplayableInfo.swift in Sources */,
 				92A506DC2028A92A00B642CC /* DashboardSignal.swift in Sources */,
 				92BDFB6020277E10000E449A /* Storyboards.swift in Sources */,
 				92BDFB7B2027C182000E449A /* UserJSONRepository.swift in Sources */,
@@ -434,21 +476,25 @@
 				92BDFB6220277E10000E449A /* Colors.swift in Sources */,
 				9272CD4F20260ED000BB20BE /* Coordinator.swift in Sources */,
 				92BDFB5F20277E10000E449A /* Texts.swift in Sources */,
+				92A506E42028B3FE00B642CC /* NetWorthCell.swift in Sources */,
 				92BDFB752027AC95000E449A /* Valuation.swift in Sources */,
 				9272CD51202777E800BB20BE /* DashboardCoordinator.swift in Sources */,
 				92A05BDC2026081500C277F4 /* DashboardController.swift in Sources */,
 				92A05BBA2025FF5E00C277F4 /* AppDelegate.swift in Sources */,
 				92A506DA2028A69A00B642CC /* JSONParseService.swift in Sources */,
+				92A506F42029277C00B642CC /* ValuationHistoryService.swift in Sources */,
 				920CF95A2027CBDF00656BFA /* AssemblerFactory.swift in Sources */,
 				92BDFB7F2027C50C000E449A /* InfrastructureServicesAssembly.swift in Sources */,
 				9272CD53202778A300BB20BE /* DashboardModel.swift in Sources */,
 				92BDFB6F2027A880000E449A /* User.swift in Sources */,
 				92BDFB6A20279B22000E449A /* Fonts.swift in Sources */,
+				92A506EA2028C83F00B642CC /* MoneyAmountHelper.swift in Sources */,
 				9272CD4D20260EC500BB20BE /* ApplicationCoordinator.swift in Sources */,
 				92BDFB6120277E10000E449A /* Assets.swift in Sources */,
 				92BDFB7D2027C1FC000E449A /* FileService.swift in Sources */,
 				920CF95C2027CC1400656BFA /* RepositoriesAssembly.swift in Sources */,
 				92BDFB822027C598000E449A /* DomainServicesAssembly.swift in Sources */,
+				92A506F620292D7100B642CC /* WealthCalculationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
